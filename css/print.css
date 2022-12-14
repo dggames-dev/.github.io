@@ -1,0 +1,45 @@
+@page{
+    size:A4;
+    margin:0;
+}
+#print-btn
+{
+    display:none;
+    visibility: none;
+}
+#mainNav
+{    display:none;
+    visibility: none;  
+}
+#action_btn
+{
+    display:none;
+    visibility: none;  
+}
+
+body {
+    visibility:hidden;
+}
+.table
+{
+    visibility:visible;
+
+}
+.scrollable
+{
+    overflow: hidden;
+}
+
+.card 
+{
+    position:absolute;
+    left:0px;
+    right:0px;
+    top:0px;
+}
+.card-header
+{
+    visibility: visible;
+}
+
+
